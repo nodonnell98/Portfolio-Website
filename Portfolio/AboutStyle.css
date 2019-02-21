@@ -1,0 +1,71 @@
+﻿body {
+}
+
+
+#section1 {
+    display: inline-block;
+}
+
+#container-one{
+    height: 20%;
+    width: 100%;
+    margin-top: 100px;
+  
+}
+
+@font-face {
+    font-family: 'caviarDream';
+    src: url(Fonts/CaviarDreams.ttf)
+}
+
+@font-face {
+    font-family: 'caviarDreamB';
+    src: url(Fonts/CaviarDreams_Bold.ttf)
+}
+
+h1 {
+    font-size: 50px;;
+
+    color: #e4e4b6;
+
+}
+
+p {
+
+    color: #e4e4b6;
+}
+
+#photo-container {
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+    margin-right: 0%;
+
+}
+
+#photo {
+    height: 100%;
+    width: auto;
+    float: left;
+    display: inline;
+    margin-left: 5%;
+}
+
+#text {
+    margin-left: 0%;
+    width: 80%;
+    text-align: center;
+    padding-top: 50px;
+    display: inline-block;
+    background-color: #e4e4b6;
+    border-radius: 50%;
+    padding: 10px;
+    font-family: caviarDreamB;
+}
+
+#nameLink:hover{
+    cursor: pointer;
+    color: burlywood;
+}
+
+

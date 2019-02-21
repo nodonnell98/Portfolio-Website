@@ -1,0 +1,46 @@
+﻿body {
+    background-color: #2E7E86;
+}
+
+@font-face {
+    font-family: 'caviarDream';
+    src: url(Fonts/CaviarDreams.ttf)
+}
+
+@font-face {
+    font-family: 'caviarDreamB';
+    src: url(Fonts/CaviarDreams_Bold.ttf)
+}
+
+#section1{
+    height: 650px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#section2 {
+    height: 100%;
+    width: 100%;
+    background-color: #2d7d86;
+}
+
+.navbar {
+    background-color: #2b6978;
+    border: none;
+    color: ivory;
+}
+
+#nameLink {
+    font-family: caviarDreamB;
+    color: #e4e4b6;
+    font-size: 40px;
+}
+
+a{
+    padding: 10px;
+}
+
+.nav.navbar-nav li a {
+    color: lightgray;
+}
+

@@ -38,6 +38,8 @@ h1 {
     margin: 0;
     top: 115px;
     left: 50px;
+
+
 }
 
 
@@ -67,15 +69,16 @@ h1 {
 #photo1 {
     height: 80%;
     width: auto;
-    position: absolute;
+    position:absolute;
     top: 375px;
     left: 920px;
     display: inline;
     margin: 0;
     margin-right: 5%;
+
 }
 
-h2 {
+h2{
     font-size: 17px;
     font-weight: bold;
 }
@@ -84,6 +87,7 @@ h2 {
 
 
 #textDiv3 {
+ 
     display: inline-block;
     height: 230px;
     width: 80%;
@@ -111,7 +115,9 @@ h2 {
 
 
 
-#nameLink:hover {
+#nameLink:hover{
     cursor: pointer;
     color: burlywood;
+
 }
+

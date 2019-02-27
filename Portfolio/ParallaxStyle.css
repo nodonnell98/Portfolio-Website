@@ -49,5 +49,27 @@ h3 {
     text-transform: uppercase;
     font-family: caviarDreamB;
     font-weight: bold;
+    text-align: center;
+}
+
+.ParallaxText {
+    text-align: center;
+    padding: 50px 200px;
+    text-align: justify;
+}
+
+#TextOne {
+    color: #e4e4b6;
+    background-color: #2E7E86
+}
+
+#TextTwo {
+    color: #2E7E86;
+    background-color: #e4e4b6;
+    position:relative;
+}
+
+.border {
+    font-family: caviarDreamB;
 }
 

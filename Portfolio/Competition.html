@@ -1,29 +1,26 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
-    <link rel="stylesheet" type="text/css" href="Animations.css" />
     <link rel="stylesheet" type="text/css" href="TemplateStyle.css" />
     <link rel="stylesheet" type="text/css" href="GridStyle.css" />
-    <link rel="stylesheet" type="text/css" href="CompetitionStyle.css" />
+    <link rel="stylesheet" type="text/css" href="ParallaxStyle.css" />
+    <link rel="stylesheet" type="text/css" href="CompetitionStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="Animations.css" />
 
-    <title></title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color:ghostwhite">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:transparent;">
         <div class="container-fluid">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a id="nameLink" href="Home.html">Niall O'Donnell</a></li>
 
-            </ul>
             <ul class="nav navbar-nav navbar-right" id="loginBtn">
-                <li><a class="fab fa-facebook-f" style="background-color:#3b5998"></a></li>
                 <li><a class="fab fa-linkedin-in" style="background-color:#0077B5"></a></li>
                 <li><a class="fas fa-envelope" style="background-color:#0072c6"></a></li>
             </ul>
@@ -33,49 +30,60 @@
         </div>
     </nav>
 
-
- 
-        <div id="section1" class="container-fluid" >
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border" style="font-family:caviarDreamB">
+                <span class="glyphicon glyphicon-menu-down" id="downarrow"></span>
+                Competitions
+                <span class="glyphicon glyphicon-menu-down" id="downarrow"></span></span>
             
-            <h1>Competitions</h1>
+</div>
+    </div>
 
-                <img src="Images/circle2.png" id="photo" class="compPhoto" style="display:inline;" />
+    <div style="color: #e4e4b6;background-color:#2E7E86;text-align:center;padding:50px 200px;text-align: justify;">
+        <h3 style="text-align:center;">Empire Mock Trial World Championships <br /> New York, 2016</h3>
+        <p>
+            In 2016 I participated in the mock trial world championships as captain of the UK team.
+            This involved presenting a court case with attorneys and witnesses against an opposing team’s case.
+            As captain, I motivated my team, ensured effective teamwork and taking on the most responsibility, such as
+            being an attorney in both our defence and prosecution teams. The ability to keep calm under pressure and solve problems on the
+            spot were of paramount importance and was my greatest challenge to date.
+        </p>
 
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
 
-                <div id="textDiv2" class="compText">
-                    <h2>Empire Mock Trial World Championships, New York 2016</h2>
-                    <p>In 2016 I participated in the mock trial world championships as captain of the UK team. 
-                    This involved presenting a court case with attorneys and witnesses against an opposing team’s case.
-                    As captain, I motivated my team, ensured effective teamwork and taking on the most responsibility, such as 
-                    being an attorney in both our defence and prosecution teams. The ability to keep calm under pressure and solve problems on the 
-                    spot were of paramount importance and was my greatest challenge to date.
-                     </p>
-
-            </div>
-
-            <img src="Images/circle2.png" id="photo1" style="display:inline;"  class="compPhoto"/>
-
-
-            <div id="textDiv3" class="compText">
-                <h2>Flux Business Competition, University of Plymouth 2019</h2>
-                <p>Strategic planning and professional pitching were the aim of this competition. In a team of six, we had to develop a marketing strategy for Sponge,
-                an e-learning company looking to increase graduate interest in them and employ the top 10% of those graduates. This competitewion developed new skills for me such as
-                strategy planning as well as further improving my public speaking skills. </p>
-
-            </div>
+    <div class="bgimg-2">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
         </div>
+    </div>
 
-    
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 200px;text-align: justify;">
+            <h3 style="text-align:center;">FLUX Business Competition</h3>
+            <p>
+                Strategic planning and professional pitching were the aim of this competition. In a team of six, we had to develop a marketing strategy for Sponge,
+                an e-learning company looking to increase graduate interest in them and employ the top 10% of those graduates. This competitewion developed new skills for me such as
+                strategy planning as well as further improving my public speaking skills.
+            </p>
+        </div>
+    </div>
 
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+        </div>
+    </div>
 
-
-
-
-
-    <div id="section2" class="container-fluid" style="padding: 0%; margin: 0%;">
+    <div style="position:relative;">
         <ul id="rig">
             <li>
-                <a class="rig-cell" href="#" style="padding: 0%; margin: 0%;">
+                <a class="rig-cell" href="About.html" style="padding: 0%; margin: 0%;">
                     <img class="rig-img" src="Images/About.jpg">
                     <span class="rig-overlay"></span>
                     <span class="rig-text">About</span>
@@ -96,7 +104,7 @@
                 </a>
             </li>
             <li>
-                <a class="rig-cell" href="Competition.html" style="padding: 0%; margin: 0%;">
+                <a class="rig-cell" href="HTML/Competition.html" style="padding: 0%; margin: 0%;">
                     <img class="rig-img" src="Images/Competitions.jpg">
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Competitions</span>
@@ -117,7 +125,7 @@
                 </a>
             </li>
             <li>
-                <a class="rig-cell" href="#" style="padding: 0%; margin: 0%;">
+                <a class="rig-cell" href="ProjectPage.html" style="padding: 0%; margin: 0%;">
                     <img class="rig-img" src="Images/Hobbies.jpg">
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Hobbies</span>
@@ -131,8 +139,9 @@
                 </a>
             </li>
         </ul>
-
     </div>
+
+
 
 </body>
 </html>

@@ -13,7 +13,7 @@
 }
 
 #section1{
-    height: 650px;
+    height: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -43,4 +43,5 @@ a{
 .nav.navbar-nav li a {
     color: lightgray;
 }
+
 

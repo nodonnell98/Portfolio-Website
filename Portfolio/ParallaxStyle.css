@@ -1,0 +1,53 @@
+﻿
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+    .caption span.border {
+        background-color: #2E7E86;
+        color: #e4e4b6;
+        padding: 18px;
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+h3 {
+    color: #163d41;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: caviarDreamB;
+    font-weight: bold;
+}
+

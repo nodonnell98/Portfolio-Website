@@ -1,55 +1,86 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="TemplateStyle.css" />
-
-    <link rel="stylesheet" type="text/css" href="HomeStyle.css" />
     <link rel="stylesheet" type="text/css" href="GridStyle.css" />
+    <link rel="stylesheet" type="text/css" href="ParallaxStyle.css" />
+    <link rel="stylesheet" type="text/css" href="Animations.css" />
 
-    <title></title>
+
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color:ghostwhite">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
+ 
 
-            <ul class="nav navbar-nav navbar-right" id="loginBtn">
-                <li> <a class="fab fa-github" style="background-color:#6e5494"></a></li>
-                <li><a class="fab fa-linkedin-in" style="background-color:#0077B5"></a></li>
-                <li><a class="fas fa-envelope" style="background-color:#0072c6"></a></li>
-            </ul>
-
-
+    <div class="bgimg-1" style=" background-image: url(Images_Parallax/Work_Para.jpg);min-height: 100%;">
+        <div class="caption">
+            <span class="border">
+                <span class="glyphicon glyphicon-menu-down" id="downarrow"></span>
+                Get in touch
+                <span class="glyphicon glyphicon-menu-down" id="downarrow"></span>
+            </span>
 
         </div>
-    </nav>
+    </div>
 
-    <div id="section1" class="container-fluid">
+    <div class="ParallaxText" id="TextOne">
+        <h3>Hello again!</h3>
+        <p>
+           Hopefully you've  had a chance to look through this website, and learn a bit about who I am and what my skills are. If you'd like to get in touch, 
+            you can use any of the following methods and I look forward to hearing from you:
 
+        </p>
     </div>
 
 
+    <div class="ParallaxText" id="TextTwo"  >
+        <p style="font-family:caviarDreamB; text-align:left; margin-left:30%;"> <i class="fas fa-at"></i> 
+        :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;niall_od98@hotmail.com</p> 
+     
+       
+        <p style="font-family:caviarDreamB; text-align:left; margin-left:30%;">
+            <i class="fas fa-phone"></i>
+            :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07460643500
+        </p>
+        <p style="font-family:caviarDreamB; text-align:left; margin-left:30%;">
+            <i class="fab fa-linkedin"></i>
+            :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;www.linkedin.com/in/nodonnell/
+        </p>
+    </div>
 
+    <div class="ParallaxText" id="TextOne">
+        <p>
+           Or view my projects in GitHub at <br/> www.github.com/nodonnell98
+
+        </p>
+    </div>
+
+
+ 
 
 
     <div style="position:relative;">
         <ul id="rig">
             <li>
                 <a class="rig-cell" href="About.html" style="padding: 0%; margin: 0%;">
-                    <img class="rig-img" src="Images/About.jpg">
+                    <img class="rig-img" src="Images/Project.jpg">
                     <span class="rig-overlay"></span>
-                    <span class="rig-text">About</span>
+                    <span class="rig-text">About me</span>
                 </a>
             </li>
             <li>
                 <a class="rig-cell" href="Work.html" style="padding: 0%; margin: 0%;">
-                    <img class="rig-img" src="Images/Project.jpg">
+                    <img class="rig-img" src="Images/breifcase.jpg">
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Work Experience</span>
                 </a>
@@ -58,12 +89,12 @@
                 <a class="rig-cell" href="Project.html" style="padding: 0%; margin: 0%;">
                     <img class="rig-img" src="Images/laptop.jpg">
                     <span class="rig-overlay"></span>
-                    <span class="rig-text">Projects</span>
+                    <span class="rig-text">My Projects</span>
                 </a>
             </li>
             <li>
-                <a class="rig-cell" href="Images/Work.jpg" style="padding: 0%; margin: 0%;">
-                    <img class="rig-img" src="Images/Competitions.jpg">
+                <a class="rig-cell" href="Competition.html" style="padding: 0%; margin: 0%;">
+                    <img class="rig-img" src="Images/medal.jpg">
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Competitions</span>
                 </a>a
@@ -71,7 +102,7 @@
 
             <li>
                 <a class="rig-cell" href="CV/CV_CompSci_Sponge.pdf" style="padding: 0%; margin: 0%;">
-                    <img class="rig-img" src="Images/generic_bkg1.jpg">
+                    <img class="rig-img" src="Images/paper.jpg">
                     <span class="rig-overlay"></span>
                     <span class="rig-text">CV</span>
                 </a>
@@ -79,9 +110,9 @@
 
             <li>
                 <a class="rig-cell" href="Contact.html" style="padding: 0%; margin: 0%;">
-                    <img class="rig-img" src="Images/generic_bkg1.jpg">
+                    <img class="rig-img" src="Images/Contact.jpg" />
                     <span class="rig-overlay"></span>
-                    <span class="rig-text">Contact</span>
+                    <span class="rig-text">Get in touch</span>
                 </a>
             </li>
         </ul>

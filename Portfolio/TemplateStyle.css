@@ -43,5 +43,10 @@ a{
 .nav.navbar-nav li a {
     color: lightgray;
 }
+#Hello {
+    width: 85%;
+    height: auto;
+    margin: 0%
+}
 
 

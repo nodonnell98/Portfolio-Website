@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="TemplateStyle.css" />
     <link rel="stylesheet" type="text/css" href="GridStyle.css" />
     <link rel="stylesheet" type="text/css" href="ParallaxStyle.css" />
@@ -20,9 +22,10 @@
         <div class="container-fluid">
 
             <ul class="nav navbar-nav navbar-right" id="loginBtn">
-                <li><a class="fab fa-github" style="background-color:#6e5494"></a></li>
-                <li><a class="fab fa-linkedin-in" style="background-color:#0077B5"></a></li>
-                <li><a class="fas fa-envelope" style="background-color:#0072c6"></a></li>
+                <li> <a href="#" class="fab fa-github" style="background-color:#6e5494" title="Check out my GitHub!" data-toggle="popover" data-placement="bottom" data-content="www.github.com/nodonnell98"></a></li>
+                <li><a href="#" class="fab fa-linkedin-in" style="background-color:#0077B5" title="Let's connect on LinkedIn" data-toggle="popover" data-placement="bottom" data-content="www.linkedin.com/in/nodonnell/"></a></li>
+                <li><a href="# " class="fas fa-envelope" style="background-color:#0072c6" title="Send me an email" data-toggle="popover" data-placement="bottom" data-content="niall_od98@hotmail.com"></a></li>
+
             </ul>
 
 
@@ -30,7 +33,7 @@
         </div>
     </nav>
 
-    <div class="bgimg-1" style=" background-image: url(Images_Parallax/Work_Para.jpg);min-height: 100%;">
+    <div class="bgimg-1" style=" background-image: url(Images/laptop.jpg);min-height: 100%;">
         <div class="caption">
             <span class="border">
                 <span class="glyphicon glyphicon-menu-down" id="downarrow"></span>
@@ -55,6 +58,13 @@
         </p>
 
     </div>
+
+    <div class="bgimg-2" style="background-image: url(Images_Parallax/code.jpg); min-height: 200px;">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;"></span>
+        </div>
+    </div>
+
     <div style="position:relative;">
         <div class="ParallaxText" id="TextTwo">
             <h3>Mastermind : A Console Application</h3>
@@ -71,13 +81,46 @@
     </div>
 
 
-    <div class="bgimg-2" style="background-image: url(Images_Parallax/Project_Copy.jpg); min-height: 300px;">
+    <div class="bgimg-3" style="background-image: url(Images_Parallax/code2.jpg); min-height: 200px;">
         <div class="caption">
             <span class="border" style="background-color:transparent;"></span>
         </div>
     </div>
 
- 
+
+    <div style="position:relative;">
+        <div class="ParallaxText" id="TextOne">
+            <h3>Data Miner</h3>
+            <img src="Images/Dataminer.jpg" style="width:40%; margin-left:30%" />
+            <p>
+                The aim of this 1st year project was to develop our object orientated programming skills and learn about deserialsing data. The Data Miner program loads a csv file, parses
+                the information and displays the quantifiable data in a graph.
+            </p>
+            <p>
+                This was my first big coding project and was a challenge for me. I had no coding experience before university and this project is a reminder to me about how I started and how I have improved since then.
+                At the time I could only write in C# but I have now expanded that to Java, SQL, HTML, CSS, C, assembly and plan to learn many more.
+            </p>
+        </div>
+    </div>
+
+    <div class="bgimg-4" style="background-image: url(Images_Parallax/code.jpg); min-height: 200px;">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;"></span>
+        </div>
+    </div>
+
+    <div style="position:relative;">
+        <div class="ParallaxText" id="TextTwo">
+            <h3>There are more...</h3>
+            <p>
+                If you wish to view these projects and any others I have worked on, please visit my GitHub at <br/> www.github.com/nodonnell98
+            </p>
+            <p>
+                I aim to add many more of my projects to GitHub so it can act as my portfolio of work, in addition to being able to view my own progress as a developer.
+            </p>
+        </div>
+    </div>
+
 
 
     <div style="position:relative;">
@@ -128,5 +171,12 @@
             </li>
         </ul>
     </div>
+
+    <script>
+         $(document).ready(function () {
+             $('[data-toggle="popover"]').popover();
+         });
+    </script>
+
 </body>
 </html>

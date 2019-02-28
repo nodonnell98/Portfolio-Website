@@ -2,13 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
     <link  rel="stylesheet"type="text/css" href="TemplateStyle.css" />
-
     <link rel="stylesheet" type="text/css" href="HomeStyle.css" />
     <link rel="stylesheet" type="text/css" href="GridStyle.css" />
 
@@ -20,9 +22,10 @@
         <div class="container-fluid">
             
             <ul class="nav navbar-nav navbar-right" id="loginBtn">
-                <li> <a class="fab fa-github" style="background-color:#6e5494"></a></li>
-                <li><a class="fab fa-linkedin-in" style="background-color:#0077B5"></a></li>
-                <li><a  class="fas fa-envelope" style="background-color:#0072c6"></a></li>
+                <li> <a href="#" class="fab fa-github" style="background-color:#6e5494" title="Check out my GitHub!" data-toggle="popover" data-placement="bottom" data-content="www.github.com/nodonnell98"></a></li>
+                <li><a href="#" class="fab fa-linkedin-in" style="background-color:#0077B5" title="Let's connect on LinkedIn" data-toggle="popover" data-placement="bottom" data-content="www.linkedin.com/in/nodonnell/"></a></li>
+                <li><a  href="# "class="fas fa-envelope" style="background-color:#0072c6" title="Send me an email" data-toggle="popover" data-placement="bottom" data-content="niall_od98@hotmail.com"></a></li>
+                
             </ul>
 
 
@@ -86,6 +89,13 @@
             </li>
         </ul>
     </div>
+
+    <script>
+            $(document).ready(function () {
+                $('[data-toggle="popover"]').popover();
+            });
+    </script>
+
 
 </body>
 </html>

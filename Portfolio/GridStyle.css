@@ -113,3 +113,23 @@
 #rig li {
     width: 33.333333%;
 }
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+@media screen and (min-width:320px) and (max-width:920px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+    .rig-text {
+
+        opacity: 0.8;
+        color: white;
+
+    }
+
+    .rig-overlay{
+        opacity: 0.3;
+    }
+
+}

@@ -7,3 +7,12 @@
     margin: 0%
 }
 
+@media screen and (min-width:320px) and (max-width:920px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+    #Hello {
+        width: 80%;
+        height: auto;
+        margin: 0%
+    }
+}
+

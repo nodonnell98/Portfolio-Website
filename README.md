@@ -1,5 +1,5 @@
-# Portfolio_Prototype
-A website prototype for my portfolio
+# Portfolio
+My portfolio website
 
 
 This a website I am creating using what I have been taught at university as well as content I am teaching myself. Using HTML, CSS and JavaScript,

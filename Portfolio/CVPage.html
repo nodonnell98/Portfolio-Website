@@ -8,9 +8,27 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
     <link rel="stylesheet" type="text/css" href="TemplateStyle.css" />
-
+    <link rel="stylesheet" type="text/css" href="Animations.css" />
     <link rel="stylesheet" type="text/css" href="HomeStyle.css" />
     <link rel="stylesheet" type="text/css" href="GridStyle.css" />
+
+    <style>
+        #downloadLink {
+            margin: 5% 40% 10% 40%;
+            font-size: 36px;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: lightgray;
+            text-align: center;
+            border: solid;
+            border-color: #2E7E86;
+            box-shadow: 10px;
+        }
+
+        #downlaodText {
+            color: #2E7E86;
+        }
+    </style>
 
     <title></title>
 </head>
@@ -19,10 +37,12 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
 
-            <ul class="nav navbar-nav navbar-right" id="loginBtn">
-                <li> <a class="fab fa-github" style="background-color:#6e5494"></a></li>
-                <li><a class="fab fa-linkedin-in" style="background-color:#0077B5"></a></li>
-                <li><a class="fas fa-envelope" style="background-color:#0072c6"></a></li>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="fab fa-linkedin-in" style="background-color:#0077B5; color: lightgray;" title="Let's connect on LinkedIn" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="<a href='https://www.linkedin.com/in/nodonnell/'  target=_blank>linkedin.com/in/nodonnell/</a>" data-html="true"></a></li>
+                <li> <a href="#" class="fab fa-github" style="background-color:#6e5494; color: lightgray;" title="Check out my GitHub!" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="<a href='https://www.github.com/nodonnell98'  target=_blank>github.com/nodonnell98</a>" data-html="true"></a></li>
+                <li><a href="#" class="fas fa-envelope" style="background-color:#0072c6; color: lightgray;" title="Send me an email" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="niall_od98@hotmail.com"></a></li>
+                <li><a href="#rig" class="fas fa-home" style="background-color:#6e5494; color: lightgray;"></a></li>
+
             </ul>
 
 
@@ -30,10 +50,15 @@
         </div>
     </nav>
 
-    <div id="section1" class="container-fluid">
-        <img src="CV/CV_CompSci_Sponge.jpg" alt="Hello there!" style="width:60%; margin-left: 20%"/>
+    <div class="container-fluid">
+        <img src="CV/Niall-O'Donnell-CV.jpg" alt="CV" style="width:60%; margin-left: 20%"/>
+
+       
     </div>
 
+    <div id="downloadLink">
+        <a id="downloadText" href="CV/Niall-O'Donnell-CV.pdf" download="Niall O'Donnell CV'" >Download as PDF</a>
+    </div>
 
 
 

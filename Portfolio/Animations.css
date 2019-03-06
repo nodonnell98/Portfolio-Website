@@ -164,32 +164,23 @@
     animation-name: rubberBand;
 }
 
-@-webkit-keyframes fadeIn {
+
+
+
+@keyframes pickMe{
     from {
-        opacity: 0;
+        transform: scale(1);
     }
 
-    to {
-        opacity: 1;
-
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        
-    }
-
-    to {
-        
+    to{
+        transform: scale(1.2);
     }
 }
 
-.fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
+.pickMe{
+    animation-name: pickMe;
 }
+
 
 #nameLink:hover {
     animation: rubberBand 1s;
@@ -197,6 +188,10 @@
 
 #downarrow{
     animation: signpost 1s infinite;
+}
+
+#downloadLink:hover{
+    animation: pickMe 1s forwards;
 }
 
 

@@ -133,3 +133,10 @@
     }
 
 }
+
+@media (max-resolution: 96dpi) {
+
+    .rig-text{
+        font-size: 36px;
+    }
+}

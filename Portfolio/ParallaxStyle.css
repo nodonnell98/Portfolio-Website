@@ -102,9 +102,13 @@ h3 {
 
 }
 
-@media (max-resolution: 95dpi){
+@media (max-resolution: 96dpi){
     #TextOne, #TextTwo{
-        font-size: 17px;
+        font-size: 24px;
+    }
+
+    .caption{
+        transform: scale(2);
     }
 }
 

@@ -173,3 +173,19 @@
             filter: grayscale(0);
         }
 }
+
+@media (max-resolution: 96dpi) {
+    .tl-year{
+        font-size: 40px;
+    }
+
+   
+
+    .tl-content {
+        font-size: 25px;
+    }
+
+        .tl-content h1 {
+            font-size: 30px;
+        }
+}

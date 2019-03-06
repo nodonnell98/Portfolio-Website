@@ -1,6 +1,12 @@
-﻿body {
+﻿
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #2E7E86;
 }
+
 
 @font-face {
     font-family: 'caviarDream';
@@ -18,6 +24,7 @@
     padding: 0px;
 }
 
+
 #section2 {
     height: 100%;
     width: 100%;
@@ -27,8 +34,8 @@
 .navbar {
     background-color: transparent;
     border: none;
-    color: ivory;
 }
+
 
 #nameLink {
     font-family: caviarDreamB;
@@ -41,13 +48,19 @@ a{
 }
 
 .nav.navbar-nav li a {
-    color: lightgray;
+    color: black;
 }
+
+.fab, .fas {
+    color: ;
+}
+
 #Hello {
     width: 85%;
     height: auto;
     margin: 0%
 }
+
 
 
 @viewport {
@@ -63,6 +76,17 @@ a{
     }
 }
 
+
+@media (max-resolution: 96dpi) {
+    .navbar{
+        height: 75px;
+    }
+
+    .fab, .fas {
+        height: 100%;
+        width: auto;
+    }
+}
 
 
 

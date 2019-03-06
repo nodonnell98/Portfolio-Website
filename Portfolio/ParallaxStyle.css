@@ -102,3 +102,9 @@ h3 {
 
 }
 
+@media (max-resolution: 95dpi){
+    #TextOne, #TextTwo{
+        font-size: 17px;
+    }
+}
+

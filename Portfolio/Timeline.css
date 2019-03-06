@@ -137,23 +137,22 @@
 
 @media screen and (min-width:0px) and (max-width:920px) {
     /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
-    #timeline:active .tl-item {
+    #timeline:hover .tl-item, #timeline:active .tl-item {
         width: 23.3333%;
     }
 
 
 
-    .tl-item:active {
+    .tl-item:hover, .tl-item:active {
         width: 250% !important;
-        
     }
 
 
-        .tl-item:active:after {
+        .tl-item:hover, .tl-item:active:after {
             opacity: 0;
         }
 
-        .tl-item:active:before {
+        .tl-item:hover, .tl-item:active:before {
             opacity: 1;
             -webkit-transform: translate3d(0, 0, 0) translateY(0);
             transform: translate3d(0, 0, 0) translateY(0);
@@ -162,14 +161,14 @@
             transition: opacity 1s ease, transform 1s ease 0.25s, -webkit-transform 1s ease 0.25s;
         }
 
-        .tl-item:active .tl-content {
+        .tl-item:hover, .tl-item:active .tl-content {
             opacity: 1;
             -webkit-transform: translateY(0);
             transform: translateY(0);
             transition: all 0.75s ease 0.5s;
         }
 
-        .tl-item:active .tl-bg {
+        .tl-item:hover, .tl-item:active .tl-bg {
             -webkit-filter: grayscale(0);
             filter: grayscale(0);
         }
